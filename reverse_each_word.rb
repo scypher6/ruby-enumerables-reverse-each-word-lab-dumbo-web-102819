@@ -4,5 +4,5 @@ def reverse_each_word (sentence)
   string_array.collect.each do |string|
      restring += string.reverse + " "
   end
-  return restring
+  return restring.chomp( )
 end
